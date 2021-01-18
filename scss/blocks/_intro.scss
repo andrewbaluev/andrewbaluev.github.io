@@ -1,0 +1,38 @@
+.intro {
+    min-height: 100vh;
+    color: #000;
+
+    &__title {
+        margin-bottom: 15px;
+        font-size: 24px;
+        line-height: 1.2em;
+    }
+
+    &__subtitle {
+        line-height: 1.2;
+        margin-bottom: 10px;
+    }
+
+    &__link {
+        position: relative;
+        color: $link-color;
+        text-decoration: none;
+        transition: color .2s ease;
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0%;
+            height: 1px;
+            transition: all .2s ease;
+        }
+        &:hover {
+            color: $main-color;
+            &::after {
+                width: 100%;
+                background-color: $second-color;
+            }
+        }
+    }
+}

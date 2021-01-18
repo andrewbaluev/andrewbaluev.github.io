@@ -1,7 +1,10 @@
-# Это тестовый проект
-+ Показать как работает гит
-+ Познакомиться с командами
+# Привет!
 
-```bash
+## Это мой временный сайт
 
-$ git clone
+[andrewbaluev.github.io](https://andrewbaluev.github.io/)
+
+При создании страницы вдохновлялся [hohlov.pro](https://hohlov.pro/)
+
+
+
