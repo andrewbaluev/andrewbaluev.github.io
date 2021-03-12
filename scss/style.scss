@@ -1,26 +1,7 @@
+@import 'vendor/normalize/import-now';
 @import 'variables';
-@import 'libs/normalize';
 
-body,html {
-    height: 100%
-}
+@import 'ui';
 
-*,
-:after,
-:before {
-    box-sizing: border-box;
-}
-
-body {
-    background: #fff;
-    font-family: 'Anonymous Pro', monospace;
-    font-size: 20px;
-    color: #000;
-}
-
-.container {
-    padding: 40px;
-    max-width: 480px;
-}
-
+@import 'blocks/toggle-theme';
 @import 'blocks/intro';

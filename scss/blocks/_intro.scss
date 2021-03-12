@@ -1,7 +1,4 @@
 .intro {
-    min-height: 100vh;
-    color: #000;
-
     &__title {
         margin-bottom: 15px;
         font-size: 24px;
@@ -14,8 +11,10 @@
     }
 
     &__link {
+        font-family: var(--font-monospace);
         position: relative;
-        color: $link-color;
+        font-weight: 500;
+        color: var(--link-color);
         text-decoration: none;
         transition: color .2s ease;
         &::after {
@@ -28,10 +27,10 @@
             transition: all .2s ease;
         }
         &:hover {
-            color: $main-color;
+            // color: $main-color;
             &::after {
                 width: 100%;
-                background-color: $second-color;
+                background-color: var(--link-color);
             }
         }
     }
