@@ -1,4 +1,9 @@
 import { toggleTheme } from "./theme.js";
 import { sendYandexMetricEvent } from "./analytics.js";
 
-toggleThemeButton.addEventListener("click", toggleTheme);
+document.addEventListener("DOMContentLoaded", function() {
+  const toggleThemeButton = document.getElementById("toggle-theme");
+  toggleThemeButton.addEventListener("click", toggleTheme);
+})
+
+
