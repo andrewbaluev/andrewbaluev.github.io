@@ -1,3 +1,5 @@
+import { sendYandexMetricEvent } from "./analytics.js";
+
 const THEME_LIGHT = "light";
 const THEME_DARK = "dark";
 
